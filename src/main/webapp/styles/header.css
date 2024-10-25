@@ -1,0 +1,45 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+
+header {
+    background-color: #fff;
+    padding: 0.5rem 4rem;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.menu {
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 5px;
+    background-color: fuchsia;
+    width: 100%; /* You can adjust the width of the line */
+    margin-top: 0px;
+    margin-bottom: 2rem;
+}
+
+.nav_right {
+    display: flex;
+   gap: 2rem;
+}

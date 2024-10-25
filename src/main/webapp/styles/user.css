@@ -1,0 +1,92 @@
+
+.container {
+    background-color: #fff;
+    padding: 4rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: fuchsia;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: fuchsia;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input {
+    width: calc(100% - 24px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group2 {
+    margin-bottom: 2rem; 
+}
+
+.form-group2 input {
+    margin-right: 5px;
+}
+
+.forgot-password-link {
+    margin-left: 40px; 
+}
+
+.forgot-password-link:hover{
+    color: fuchsia;
+}
+
+
+
+.btn-login {
+    background-color: fuchsia;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-bottom: 1rem;
+}
+
+.btn-login:hover {
+    background-color: #45a049;
+}
+
+.register-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.register-link:hover {
+    text-decoration: underline;
+    color: fuchsia;
+}
+
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.25); 
+}
+
